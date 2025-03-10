@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Bài 7: In bảng cửu chương dạng nâng cao
+    cout << "Bai 7. Hay in ra bang cuu chuong dang nang cao:\n";
+    for (int i = 1; i <= 9; i++) {
+        for (int j = 1; j <= 9; j++) {
+            cout << i << "*" << j << "=" << i * j << "\t";
+        }
+        cout << endl;
+    }
+}
